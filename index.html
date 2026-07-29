@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elsa Lady Dia Fatma - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon (1).ico" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header id="header">
+    <a href="#" class="logo">Elsa<span>.</span></a>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#sertifikasi">Sertifikasi</a></li>
+        <li><a href="#hobby">Hobby</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-extra">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="bx bx-moon"></i>
+      </button>
+      <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-glass">
+        <div class="hero-glass-inner">
+          <span class="hero-badge"><i class="bx bx-sparkles"></i> Welcome to My Portfolio</span>
+          <h1>Elsa Lady Dia Fatma</h1>
+          <p class="hero-subtitle">PENS <span>Student 2024</span> &mdash; Front-End Developer &amp; UI/UX Designer</p>
+          <p class="hero-quote">Don't Just Dream, Make It Happen!</p>
+          <div class="hero-btns">
+            <a href="#about" class="btn-primary"><i class="bx bx-user"></i> About Me</a>
+            <a href="#contact" class="btn-outline"><i class="bx bx-send"></i> Contact</a>
+          </div>
+          <div class="hero-social">
+            <a href="https://github.com/Elsalady" target="_blank" title="GitHub"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/elsalady_df?igsh=MTUyMXF6ejV4dmdtZw==" target="_blank" title="Instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="mailto:diafatmaelsalady@gmail.com" title="Email"><i class="bx bx-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img">
+          <div class="img-wrapper">
+            <img src="wisuda.jpeg" alt="Elsa Lady Dia Fatma" />
+          </div>
+        </div>
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <h4>D3 Teknik Informatika &mdash; PENS PSDKU Lamongan</h4>
+          <p>
+            Saya adalah mahasiswa aktif Teknik Informatika PENS PSDKU Lamongan yang memiliki minat besar pada pengembangan web dan perancangan aplikasi yang <em>user-friendly</em>. Terbiasa bekerja dengan HTML, CSS, serta alat pendukung pengembangan front-end lainnya, dan aktif mengembangkan diri melalui berbagai proyek akademik. Saya merupakan pribadi yang optimis, senang mengeksplorasi hal baru, serta mampu berkolaborasi secara efektif dalam tim untuk menyelesaikan tugas dengan teliti dan tepat waktu.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section education">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education <span>Background</span></h2>
+        <p>Perjalanan pendidikan saya dari SD hingga perkuliahan</p>
+      </div>
+      <div class="timeline">
+        <!-- SD -->
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="bx bxs-building"></i></div>
+          <div class="timeline-content">
+            <span class="year">2012 &ndash; 2018</span>
+            <h3>SD Muhammadiyah 1 Sugio</h3>
+            <p>Fokus Studi : Dasar-Dasar Akademik & Pembentukan Karakter. Masa pengenalan dunia pendidikan formal untuk membangun fondasi akademik yang kuat serta menanamkan nilai-nilai disiplin, tanggung jawab, dan rasa ingin tahu sejak dini.</p>
+          </div>
+        </div>
+        <!-- SMP -->
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="bx bxs-school"></i></div>
+          <div class="timeline-content">
+            <span class="year">2018 &ndash; 2021</span>
+            <h3>SMP Negeri 1 Sugio</h3>
+            <p>Fokus Studi : Pengembangan Pengetahuan Umum & Logika Dasar. Memperluas wawasan di berbagai bidang keilmuan serta mengasah kemampuan berpikir logis dan analitis sebagai bekal melanjutkan ke jenjang yang lebih tinggi.</p>
+          </div>
+        </div>
+        <!-- SMA -->
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="bx bxs-school"></i></div>
+          <div class="timeline-content">
+            <span class="year">2021 &ndash; 2024</span>
+            <h3>SMA Muhammadiyah 10 Sugio &mdash; MIPA</h3>
+            <p>Fokus Studi : Sains & Teknologi Dasar. Mendalami ilmu pengetahuan alam dan matematika serta mulai mengenal dasar-dasar teknologi informasi, yang menjadi fondasi awal ketertarikan terhadap dunia pemrograman dan pengembangan perangkat lunak.</p>
+          </div>
+        </div>
+        <!-- Kuliah -->
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="bx bxs-buildings"></i></div>
+          <div class="timeline-content">
+            <span class="year">2024 &ndash; Sekarang</span>
+            <h3>PENS PSDKU Lamongan &mdash; D3 Teknik Informatika</h3>
+            <p>Fokus Studi : Pengembangan Web Frontend & UI/UX Design. Mendalami proses pembuatan website mulai dari tahap awal hingga implementasi. Merancang tampilan antarmuka (UI/UX) yang responsif, interaktif, dan mudah digunakan oleh user. Merealisasikan hasil desain ke dalam baris kode frontend menggunakan HTML, CSS, JavaScript, serta framework pendukung untuk memastikan performa website berjalan optimal dan fungsional.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Experience</span></h2>
+        <p>Pengalaman organisasi, kepemimpinan, dan pengembangan teknis</p>
+      </div>
+      <div class="experience-grid">
+        <div class="exp-card">
+          <div class="exp-icon"><i class="bx bx-group"></i></div>
+          <h3>Kepemimpinan Organisasi &amp; Pemandu Forum Mahasiswa</h3>
+          <p>Memiliki rekam jejak kepemimpinan yang kuat sejak aktif di Ikatan Pelajar Muhammadiyah (IPM) dengan mengemban amanah sebagai Ketua Bidang serta dipercaya menjadi Ketua Pelaksana yang bertanggung jawab penuh atas manajemen tim, perencanaan strategis, dan eksekusi program kerja. Pengalaman kepemimpinan ini diperluas di jenjang perkuliahan melalui partisipasi aktif dalam ekosistem kaderisasi LKMM Pra-TD dan TD, hingga berhasil menyelesaikan pelatihan pemandu dan dipercaya menjadi Pemandu serta Pemateri resmi forum kampus. Seluruh rangkaian pengalaman ini mengasah keahlian mendalam dalam manajemen proyek, <em>public speaking</em>, komunikasi strategis, serta kepemimpinan organisasi.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="bx bx-laptop"></i></div>
+          <h3>Pengembangan Skill Teknis &amp; Workshop Teknologi</h3>
+          <p>Aktif mengikuti berbagai pelatihan intensif dan workshop untuk memperdalam keahlian di bidang teknologi informasi. Terlibat dalam kegiatan seperti Workshop Mobile Programming PENSLA dan Workshop Front-End &amp; Back-End Technology. Melalui rangkaian pelatihan ini, saya fokus mengasah kemampuan praktis dalam merancang UI/UX yang <em>user-friendly</em> serta mengimplementasikan baris kode frontend menggunakan HTML, CSS, dan JavaScript untuk membangun website yang responsif.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="bx bx-library"></i></div>
+          <h3>Magang Dinas Perpustakaan &amp; Kearsipan Kota Surabaya</h3>
+          <p>Menjalani magang selama 5,5 bulan di Dinas Perpustakaan dan Kearsipan Kota Surabaya, terlibat langsung dalam pengelolaan layanan perpustakaan berbasis teknologi informasi. Berkontribusi dalam pengelolaan data koleksi perpustakaan, pendampingan layanan digital kepada pengunjung, serta membantu proses administrasi dan kearsipan secara sistematis. Pengalaman ini mengasah kemampuan komunikasi profesional, pelayanan publik, serta kedisiplinan dan tanggung jawab dalam lingkungan kerja instansi pemerintah.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Skills</span></h2>
+        <p>Keahlian yang telah saya pelajari dan kembangkan</p>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><i class="bx bx-code-alt"></i> Frontend</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-icon"><i class="bx bxl-html5"></i></div><h3>HTML</h3><div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div><span class="skill-percent">85%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bxl-css3"></i></div><h3>CSS</h3><div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div><span class="skill-percent">80%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bxl-javascript"></i></div><h3>JavaScript</h3><div class="skill-bar"><div class="skill-progress" style="width:60%"></div></div><span class="skill-percent">60%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-desktop"></i></div><h3>Responsive Web Design</h3><div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div><span class="skill-percent">70%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><i class="bx bx-mobile-alt"></i> Mobile</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-icon"><i class="bx bxl-flutter"></i></div><h3>Flutter</h3><div class="skill-bar"><div class="skill-progress" style="width:45%"></div></div><span class="skill-percent">45%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><i class="bx bx-palette"></i> Design</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-paint"></i></div><h3>UI/UX Design</h3><div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div><span class="skill-percent">75%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-frame"></i></div><h3>Wireframing</h3><div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div><span class="skill-percent">70%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-cube-alt"></i></div><h3>Prototyping</h3><div class="skill-bar"><div class="skill-progress" style="width:65%"></div></div><span class="skill-percent">65%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-search-alt"></i></div><h3>Usability Heuristics</h3><div class="skill-bar"><div class="skill-progress" style="width:60%"></div></div><span class="skill-percent">60%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><i class="bx bx-wrench"></i> Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-icon"><i class="bx bxl-git"></i></div><h3>Git &amp; GitHub</h3><div class="skill-bar"><div class="skill-progress" style="width:55%"></div></div><span class="skill-percent">55%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3 class="skill-cat-title"><i class="bx bx-user-check"></i> Non-Teknis</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-user"></i></div><h3>Kepemimpinan</h3><div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div><span class="skill-percent">80%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-bar-chart"></i></div><h3>Manajemen Proyek</h3><div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div><span class="skill-percent">75%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-microphone"></i></div><h3>Public Speaking</h3><div class="skill-bar"><div class="skill-progress" style="width:78%"></div></div><span class="skill-percent">78%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-chat"></i></div><h3>Komunikasi Strategis</h3><div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div><span class="skill-percent">75%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-group"></i></div><h3>Kerja Sama Tim</h3><div class="skill-bar"><div class="skill-progress" style="width:82%"></div></div><span class="skill-percent">82%</span></div>
+          <div class="skill-card"><div class="skill-icon"><i class="bx bx-world"></i></div><h3>Bahasa Inggris (Dasar)</h3><div class="skill-bar"><div class="skill-progress" style="width:50%"></div></div><span class="skill-percent">50%</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sertifikasi -->
+  <section id="sertifikasi" class="section sertifikasi">
+    <div class="container">
+      <div class="section-header">
+        <h2>Training &amp; <span>Sertifikasi</span></h2>
+        <p>Pelatihan dan pengembangan diri yang telah saya ikuti</p>
+      </div>
+      <div class="sertifikasi-grid">
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-code-alt"></i></div>
+          <div class="sert-body">
+            <h3>Workshop Mobile Programming</h3>
+            <span class="sert-organizer">PENSLA Festival</span>
+            <span class="sert-year">2026</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-laptop"></i></div>
+          <div class="sert-body">
+            <h3>Workshop Front End &amp; Back End Technology</h3>
+            <span class="sert-organizer">PENSLA Festival</span>
+            <span class="sert-year">2025</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-group"></i></div>
+          <div class="sert-body">
+            <h3>LKMM Pra Tingkat Dasar (Peserta)</h3>
+            <span class="sert-organizer">Politeknik Elektronika Negeri Surabaya</span>
+            <span class="sert-year">2024</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-group"></i></div>
+          <div class="sert-body">
+            <h3>LKMM Tingkat Dasar (Peserta)</h3>
+            <span class="sert-organizer">Politeknik Elektronika Negeri Surabaya</span>
+            <span class="sert-year">2025</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-star"></i></div>
+          <div class="sert-body">
+            <h3>PPLKMM (Pelatihan Pemandu LKMM)</h3>
+            <span class="sert-organizer">Politeknik Elektronika Negeri Surabaya</span>
+            <span class="sert-year">2025</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-chalkboard"></i></div>
+          <div class="sert-body">
+            <h3>Pemandu LKMM Pra Tingkat Dasar (Pemateri)</h3>
+            <span class="sert-organizer">Politeknik Elektronika Negeri Surabaya</span>
+            <span class="sert-year">2025</span>
+          </div>
+        </div>
+        <div class="sert-card">
+          <div class="sert-icon"><i class="bx bx-chalkboard"></i></div>
+          <div class="sert-body">
+            <h3>Pemandu LKMM Tingkat Dasar (Pemateri)</h3>
+            <span class="sert-organizer">Politeknik Elektronika Negeri Surabaya</span>
+            <span class="sert-year">2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobby -->
+  <section id="hobby" class="section hobby">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Hobby</span></h2>
+        <p>Aktivitas yang saya nikmati di waktu luang</p>
+      </div>
+      <div class="hobby-grid">
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-book-reader"></i></div><h3>Membaca</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-dish"></i></div><h3>Memasak</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-microphone"></i></div><h3>Bernyanyi</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-movie-play"></i></div><h3>Menonton Film</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-leaf"></i></div><h3>Berkebun</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-pencil"></i></div><h3>Menulis</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-palette"></i></div><h3>Menggambar</h3></div>
+        <div class="hobby-card"><div class="hobby-icon"><i class="bx bx-game"></i></div><h3>Bermain Game</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <h2>My <span>Projects</span></h2>
+        <p>Beberapa proyek yang telah saya buat</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-badge">01</div>
+          <div class="project-body">
+            <h3>Veridity &mdash; Forensic Image Analysis Toolkit</h3>
+            <p>Alat analisis forensik citra digital untuk mendeteksi keaslian foto. Bertanggung jawab penuh dalam <em>UI/UX Design</em> dan <em>Frontend Development</em>&mdash;merancang antarmuka yang bersih dan intuitif agar data forensik yang kompleks mudah dipahami. Direalisasikan menggunakan HTML, CSS, dan JavaScript, memastikan tampilan responsif, interaktif, dan performa optimal saat menyajikan visualisasi data serta hasil analisis secara <em>real-time</em> dari unggah dokumen hingga deteksi akhir.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">02</div>
+          <div class="project-body">
+            <h3>Personal Web Portfolio</h3>
+            <p>Website portofolio personal resmi yang dirancang dan dibangun dari awal untuk menampilkan profil, <em>skill</em>, dan karya secara digital. Berperan sebagai <em>UI/UX Designer</em> sekaligus <em>Frontend Developer</em>, fokus menciptakan tampilan minimalis, modern, dan mudah dinavigasi, lalu diimplementasikan dengan HTML, CSS, dan JavaScript agar responsif di berbagai perangkat.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">03</div>
+          <div class="project-body">
+            <h3>LEKSIKA &mdash; AI Study App</h3>
+            <p>Aplikasi mobile inovatif berbasis AI untuk merangkum berbagai dokumen atau teks panjang secara otomatis dan akurat dalam hitungan detik. Berperan sebagai <em>UI/UX Designer</em> yang merancang alur antarmuka sederhana namun fungsional, memastikan proses pengunggahan hingga penyajian hasil rangkuman terasa intuitif, dengan fokus pada efisiensi navigasi serta tampilan visual yang modern dan bersih.</p>
+            <div class="project-tech">
+              <span>UI/UX</span><span>Mobile Design</span><span>AI</span><span>Prototype</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">04</div>
+          <div class="project-body">
+            <h3>Sistem Monitoring Posyandu (Web-Based)</h3>
+            <p>Dashboard manajemen data kesehatan bayi dan balita. Fitur utama mencakup manajemen data imunisasi, pendaftaran bayi, dan integrasi data sensor melalui API untuk pemantauan parameter kesehatan secara <em>real-time</em>. Keamanan data dijamin dengan <em>hashing</em> password dan manajemen sesi yang ketat.</p>
+            <div class="project-tech">
+              <span>Dashboard</span><span>API</span><span>Manajemen Data</span><span>Security</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">05</div>
+          <div class="project-body">
+            <h3>StudyMatch &mdash; UX Research &amp; Prototype</h3>
+            <p>Perancangan aplikasi mobile <em>mentorship</em> untuk pendidikan remaja. Menerapkan 10 <em>Usability Heuristics</em> dan prinsip desain psikologi untuk menciptakan alur kerja aplikasi yang memudahkan interaksi antara mentor dan pelajar secara efektif dan menyenangkan.</p>
+            <div class="project-tech">
+              <span>UX Research</span><span>Usability Heuristics</span><span>Prototype</span><span>Mobile</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">06</div>
+          <div class="project-body">
+            <h3>Portal Digital Tuban &mdash; Web Development</h3>
+            <p>Platform berbasis web sebagai pusat informasi pariwisata, kebudayaan, dan kuliner khas Kabupaten Tuban. Berfokus pada implementasi <em>fundamental web development</em> yang responsif untuk mengenalkan potensi daerah secara digital. Meliputi eksplorasi visual destinasi alam (Air Terjun Nglirip, Goa Akbar, Pantai Boom), katalog kuliner &amp; UMKM khas Bumi Wali (Becek Mentok, Kare Rajungan, Legen), serta integrasi informasi sejarah Wali Songo, situs Makam Sunan Bonang, dan arsitektur Masjid Agung Tuban.</p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact <span>Me!</span></h2>
+        <p>If you have any project in your mind</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="bx bx-phone"></i>
+            <div><h4>Phone</h4><p>081515683419</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="bx bx-envelope"></i>
+            <div><h4>Email</h4><p>diafatmaelsalady@gmail.com</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-github"></i>
+            <div><h4>GitHub</h4><p>github.com/Elsalady</p></div>
+          </div>
+          <div class="contact-item">
+            <i class="bx bxl-instagram"></i>
+            <div><h4>Instagram</h4><p>@elsalady_df</p></div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form onsubmit="return handleFormSubmit(event);" id="form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+          <div id="form-result"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Elsa Lady Dia Fatma &mdash; 3124521025</p>
+      <a href="#home" class="to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    // ===== THEME TOGGLE =====
+    const themeToggle = document.getElementById('themeToggle');
+    const icon = themeToggle.querySelector('i');
+
+    // Cek preferensi tersimpan
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark');
+      icon.className = 'bx bx-sun';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      const isDark = document.body.classList.contains('dark');
+      icon.className = isDark ? 'bx bx-sun' : 'bx bx-moon';
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+
+    // ===== Navbar scroll effect =====
+    window.addEventListener('scroll', () => {
+      const header = document.getElementById('header');
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // ===== Mobile menu toggle =====
+    function toggleMenu() {
+      const nav = document.getElementById('nav-links');
+      const hamburger = document.getElementById('hamburger');
+      nav.classList.toggle('open');
+      hamburger.classList.toggle('open');
+    }
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-links').classList.remove('open');
+        document.getElementById('hamburger').classList.remove('open');
+      });
+    });
+
+    // ===== Active link highlight =====
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        const top = s.offsetTop - 120;
+        if (window.scrollY >= top) current = s.getAttribute('id');
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // ===== Form submit =====
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const formData = new FormData(event.target);
+      const name = formData.get('name');
+      const email = formData.get('email');
+      const message = formData.get('message');
+      document.getElementById('form-result').innerHTML =
+        '<div class="result"><h3>Data yang Anda Masukkan:</h3><p>Nama: ' + name + '</p><p>Email: ' + email + '</p><p>Message: ' + message + '</p></div>';
+      event.target.reset();
+      return false;
+    }
+
+    // ===== Scroll reveal with stagger =====
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.section .container > *').forEach(el => {
+      revealObserver.observe(el);
+    });
+
+    // ===== Floating shapes di hero =====
+    const hero = document.querySelector('.hero');
+    for (let i = 0; i < 5; i++) {
+      const shape = document.createElement('div');
+      shape.className = 'floating-shape';
+      shape.style.setProperty('--size', (20 + Math.random() * 40) + 'px');
+      shape.style.setProperty('--x', Math.random() * 100 + '%');
+      shape.style.setProperty('--y', Math.random() * 100 + '%');
+      shape.style.setProperty('--d', (3 + i * 2) + 's');
+      shape.style.setProperty('--delay', (Math.random() * 3) + 's');
+      hero.appendChild(shape);
+    }
+
+    // ===== Counter angka di dashboard-style stats =====
+    const countObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const target = parseInt(el.dataset.count);
+          if (!target || el.dataset.counted) return;
+          el.dataset.counted = 'true';
+          let current = 0;
+          const step = Math.ceil(target / 40);
+          const timer = setInterval(() => {
+            current += step;
+            if (current >= target) {
+              current = target;
+              clearInterval(timer);
+            }
+            el.textContent = current;
+          }, 30);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('[data-count]').forEach(el => countObserver.observe(el));
+  </script>
+</body>
+</html>
